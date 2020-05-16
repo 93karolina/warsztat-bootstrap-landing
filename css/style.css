@@ -1,7 +1,35 @@
+.navbar {
+    background-color: #444;
+}
 
-
-.main {
+#main {
     background-image: url(../img/form-background.jpg);
     background-position: center;
     background-size: cover;
+    color: #c2c2c2;
+}
+
+.form {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.form-header {
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.footer {
+    background-color: #f8f8f8;
+}
+
+.btn {
+    background-color: #e38f42;
+    color: white;
+}
+
+.btn-dark {
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.link {
+    color: #e38f42
 }
