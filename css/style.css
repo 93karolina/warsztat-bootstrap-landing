@@ -1,17 +1,27 @@
+body {
+    font-family: "Raleway", sens-serif;
+}
+section,
+footer {
+    padding: 120px 0;
+}
+
 .nav-container {
     background-color: #444;
+    color: #fff;
 }
+ .navbar-light .navbar-brand,
+ .navbar-light .navbar-nav .nav-link,
+ .navbar-light .navbar-brand:hover,
+ .navbar-light .navbar-nav .nav-link:hover {
+     color: #c2c2c2;
+ } 
 
 #main {
     background-image: url(../img/form-background.jpg);
     background-position: center;
     background-size: cover;
     color: #c2c2c2;
-}
-
-p {
-    color: #888;
-
 }
 
 .form {
@@ -22,6 +32,11 @@ p {
     background-color: rgba(0, 0, 0, 0.35);
 }
 
+.form,
+.header {
+    color: #fff;
+}
+
 .footer {
     background-color: #f8f8f8;
 }
@@ -29,12 +44,27 @@ p {
 .btn {
     background-color: #e38f42;
     color: white;
+    border: 0;
+}
+.btn:hover {
+    background-color: #eb7c15;
+    color: white
 }
 
 .btn-dark {
     background-color: rgba(0, 0, 0, 0.35);
 }
 
+.btn-dark:hover {
+    background-color: rgba(0, 0, 0, 0.822);
+}
+
 .link {
     color: #e38f42
 }
+
+.link:hover {
+    color: #fa871b
+}
+
+@media (max-width: 992px)

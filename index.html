@@ -23,8 +23,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
-        <div class="container nav-container">
+    <nav class="navbar nav-container navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
             <a class="navbar-brand" href="#">Klub podróżniczy</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +32,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="#main">Dołącz do nas<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
@@ -44,35 +44,40 @@
     </nav>
 
     <section id="main">
-        <div class="conteiner">
+        <div class="conteiner d-flex align-items-center">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 text-center d-flex align-items-center">
 
                     <form class="form">
-                        <div class="form-header">
-                            <h1>Dołącz do nas</h1>
-                            <p>Wypełnij zgłoszenie na członka klubu:</p>
-                            <span>ołówek</span>
+                        <div class="row">
+                            <div class="col-8 form-header">
+                                <h1>Dołącz do nas</h1>
+                                <p>Wypełnij zgłoszenie na członka klubu:</p>
+                            </div>
+                        
+                            <div class="col-4 form-header"> 
+                            <i class="fas fa-pencil-alt"></i>
+                            </div>
                         </div>
                         <div class="form-group row">
-                            <div class="col-sm-10">
+                            <div class="col-sm-8">
                                 <input type="text" class="form-control" id="imie" placeholder="Imię i nazwisko">
                             </div>
 
-                            <div class="col-sm-10">
+                            <div class="col-sm-8">
                                 <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
                             </div>
 
-                            <div class="col-sm-10">
+                            <div class="col-sm-8">
                                 <input type="text" class="form-control" id="telefon" placeholder="Telefon">
                             </div>
-                            <div class="col-sm-10">
-                                <textarea name="wiadomosc" id="wiadomosc" placeholder="Kilka słów o sobie"></textarea>
+                            <div class="col-sm-8">
+                                <textarea class ="form-control" name="wiadomosc" id="wiadomosc" placeholder="Kilka słów o sobie"></textarea>
                             </div>
-                            <div class="col-sm-10">
+                            <div class="col-sm-8">
                                 <button type="submit" class="btn btn-primary">Zapisz się!</button>
                             </div>
-                            <div class="col-sm-10">
+                            <div class="col-sm-8">
                                 <p>Wypełniająć zgłoszenie wyrażasz zgodę na przetwarzanie danych zgodnie z
                                     <a href="" class="link">polityką prywatności</a>
                                 </p>
@@ -82,12 +87,12 @@
                     </form>
                 </div>
 
-                <div class="col-lg-6">
+                <div class="col-lg-6 header text-center">
                     <h1>Świat jest na wyciągnięcie ręki</h1>
                     <p>Poznaj ludzi, których łączy wspólna pasja do podróżowania. Przekonaj się, jak wygląda życie bez
                         granic</p>
-                    <a href="" class="btn">Znajdź nas ></a>
-                    <a href="" class=" btn btn-dark">Dowiedz się więcej <span></span></a>
+                    <a href="" class="btn">Znajdź nas<span><i class="fas fa-angle-right"></i></span></a>
+                    <a href="" class="btn btn-dark">Dowiedz się więcej <span><i class="far fa-lightbulb"></i></span></a>
 
                 </div>
             </div>
